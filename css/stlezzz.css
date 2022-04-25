@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+.skr {
+    border-radius: 40px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.skr--colored {
+    background: tomato;
+    color: #fff;
+}
