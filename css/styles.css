@@ -271,7 +271,17 @@ html {
     background: var(--color-secondary);
     color: #fff;
 }
+.card--primary .badge--primary {
+    background: #126de4;
+}
+.card--secondary .badge--secondary {
+    background: #02cdf1;
+  }
+  
 /* Plans */
+.plan {
+    transition: transform 0.2s ease-out;
+}
 .plan__name {
     color: #fff;
     font-weight: 500;
@@ -296,6 +306,9 @@ html {
 .plan .list__item {
     margin-bottom: 2rem;
 }
+.plan--popular {
+    transform: scale(1.1);
+}
 .plan--popular .card__header {
     position: relative;
 }
@@ -306,6 +319,9 @@ html {
     position: absolute;
     top: -6px;
     right: 5%;
+}
+.plan :hover {
+    transform: scale(1.05);
 }
   @media screen and (min-width: 1024px) {
     .plan__name {
@@ -603,6 +619,36 @@ html {
   @media screen and (min-width: 768px) {
       .block-domain__prices {
       grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+      }
+  }
+  /* Plan blocks */
+  .block--plans .grid {
+      gap: 8rem 4rem;
+  }
+  .block--plans .card {
+      max-width: 500px;
+      margin: 0 auto;
+  }
+  /* features */
+  .feature {
+      gap: 4rem 2rem;
+      margin: 12rem 0;
+  }
+  .feature:first-of-type {
+      margin: 6rem;
+  }
+  .feature__heading {
+      margin: 1rem 0;
+  }
+  .feature__image {
+      width: 100%;
+  }
+  .feature p {
+      margin-bottom: 1rem; /* My own improvision. Mosh did not face this problem*/
+  }
+  @media screen and (min-width: 768px) {
+      .feature:nth-of-type(even) .feature__content { /* The pseudo class selector selects even article elements. The pseudo class selector works because each article element has a common class (feature) hence, the article elements can be numbered.*/ 
+          order: 2;
       }
   }
 
