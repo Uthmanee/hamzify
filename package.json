@@ -1,0 +1,24 @@
+{
+  "name": "moshify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uthmanee/hamzify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uthmanee/hamzify/issues"
+  },
+  "homepage": "https://github.com/Uthmanee/hamzify#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
