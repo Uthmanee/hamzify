@@ -1,0 +1,8 @@
+node_modules/
+.cache/
+dist/
+.htmlnanorc
+package-lock.json
+package.json
+.parcel-cache/data.mdb
+.parcel-cache/lock.mdb
